@@ -1,0 +1,147 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 3642728200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "estou na tela para cadastrar conta",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.estou_na_tela_para_cadastrar_conta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 192065700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escrevo o endereco de e-mail",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.escrevo_o_endereco_de_e_mail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3084450800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao Crie sua conta aqui",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_no_botao_crie_sua_conta_aqui()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-28T19:08:50.776Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2373101500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Criar conta com sucesso",
+        "description": "",
+        "id": "criar-conta;criar-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4774450700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "informar titulo, nome, sobrenome, senha, nascimento",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.informar_titulo_nome_sobrenome_senha_nascimento()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 312063100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencho caixaBox, endereco cidade, caixa postal, telefone, pais, telefone celular",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.preencho_caixa_box_endereco_cidade_caixa_postal_telefone_pais_telefone_celular()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clico em registro",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_em_registro()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "devo visualizar a mensagem de bem vindo",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.devo_visualizar_a_mensagem_de_bem_vindo()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criar_conta"
+          },
+          {
+            "name": "@CY001"
+          },
+          {
+            "name": "@criar_conta_com_sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Criar Conta",
+    "description": "  Como um usuario\n  Eu quero criar uma conta\n  Para que possa realizar pesquisas e pedidos",
+    "id": "criar-conta",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Cadastrar_conta.feature",
+    "tags": [
+      {
+        "name": "@criar_conta",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
