@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3134483500,
+              "duration": 7543696900,
               "status": "passed"
             },
             "line": 12,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 200527500,
+              "duration": 475300,
               "status": "passed"
             },
             "line": 13,
@@ -35,7 +35,6 @@
           },
           {
             "result": {
-              "duration": 3076514100,
               "status": "passed"
             },
             "line": 14,
@@ -48,11 +47,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T01:37:27.115Z",
+        "start_timestamp": "2021-12-29T20:13:59.167Z",
         "before": [
           {
             "result": {
-              "duration": 2397452700,
+              "duration": 3888478900,
               "status": "passed"
             },
             "match": {
@@ -64,12 +63,23 @@
         "name": "Criar conta com sucesso",
         "description": "",
         "id": "criar-conta;criar-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 3717129800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.After()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 4701246500,
+              "duration": 9343906000,
               "status": "passed"
             },
             "line": 18,
@@ -81,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 526336700,
+              "duration": 2570774300,
               "status": "passed"
             },
             "line": 19,
@@ -93,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 4383622500,
+              "duration": 4593336400,
               "status": "passed"
             },
             "line": 20,
@@ -105,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 1064720600,
+              "duration": 1064804600,
               "status": "passed"
             },
             "line": 21,
@@ -125,6 +135,448 @@
           },
           {
             "name": "@criar_conta_com_sucesso"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5641440800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "estou na tela para cadastrar conta",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.estou_na_tela_para_cadastrar_conta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escrevo o endereco de e-mail",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.escrevo_o_endereco_de_e_mail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao Crie sua conta aqui",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_no_botao_crie_sua_conta_aqui()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T20:14:32.004Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2116512600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Tentar criar com conta existente",
+        "description": "",
+        "id": "criar-conta;tentar-criar-com-conta-existente",
+        "after": [
+          {
+            "result": {
+              "duration": 3729340800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1192787400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "devo verificar a mensagem que a conta ja existe",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.devo_verificar_a_mensagem_que_a_conta_ja_existe()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criar_conta"
+          },
+          {
+            "name": "@CY002"
+          },
+          {
+            "name": "@criar_conta_existente"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4032746900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "estou na tela para cadastrar conta",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.estou_na_tela_para_cadastrar_conta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escrevo o endereco de e-mail",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.escrevo_o_endereco_de_e_mail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao Crie sua conta aqui",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_no_botao_crie_sua_conta_aqui()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T20:14:44.690Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2452743300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Tentar criar conta com e-mail invalido",
+        "description": "",
+        "id": "criar-conta;tentar-criar-conta-com-e-mail-invalido",
+        "after": [
+          {
+            "result": {
+              "duration": 3793778700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3178001200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "devo verificar a mensagem do o e-mail esta invalido",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.devo_verificar_a_mensagem_do_o_e_mail_esta_invalido()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criar_conta"
+          },
+          {
+            "name": "@CY003"
+          },
+          {
+            "name": "@criar_conta_invalida"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5919536700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "estou na tela para cadastrar conta",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.estou_na_tela_para_cadastrar_conta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escrevo o endereco de e-mail",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.escrevo_o_endereco_de_e_mail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao Crie sua conta aqui",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_no_botao_crie_sua_conta_aqui()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T20:14:58.158Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2746910600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Tentar cadastrar a conta com CEP invalido",
+        "description": "",
+        "id": "criar-conta;tentar-cadastrar-a-conta-com-cep-invalido",
+        "after": [
+          {
+            "result": {
+              "duration": 3709694600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12577803000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "preencho os campos e o cep invalido",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.preencho_os_campos_e_o_cep_invalido()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "clico em registrar",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_em_registrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "deve aparece a mensagem para colocar um valido",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.deve_aparece_a_mensagem_para_colocar_um_valido()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criar_conta"
+          },
+          {
+            "name": "@CY004"
+          },
+          {
+            "name": "@criar_conta_com_CEP_invalido"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9152941900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "estou na tela para cadastrar conta",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.estou_na_tela_para_cadastrar_conta()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escrevo o endereco de e-mail",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.escrevo_o_endereco_de_e_mail()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no botao Crie sua conta aqui",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.clico_no_botao_crie_sua_conta_aqui()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-29T20:15:23.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2220899200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.setup()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Tentar cadastrar a conta com campo telefone vazio",
+        "description": "",
+        "id": "criar-conta;tentar-cadastrar-a-conta-com-campo-telefone-vazio",
+        "after": [
+          {
+            "result": {
+              "duration": 3721166900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10914786200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "preencho os camopos e o telefone vazio",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.preencho_os_camopos_e_o_telefone_vazio()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "tento em registrar",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.tentoEmRegistrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1877096700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "deve aparecer a mensagem para inserir o telefone",
+            "match": {
+              "location": "Steps.CadastroDefinitionStep.deve_aparecer_a_mensagem_para_inserir_o_telefone()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@criar_conta"
+          },
+          {
+            "name": "@CY005"
+          },
+          {
+            "name": "@criar_conta_com_o_campo_telefone_vazio"
           }
         ]
       }

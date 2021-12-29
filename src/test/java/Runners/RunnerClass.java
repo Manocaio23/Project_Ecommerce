@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
         features = "src/test/resources/features/Cadastrar_conta.feature",
         glue = {"Steps"},
-        tags = "@CY001" ,
+        tags = " " ,
         plugin = {"pretty","html:target/cucumber-html-report", "json:target/cucumber-reports/Cucumber.json"},
         dryRun = false,
         monochrome = true,

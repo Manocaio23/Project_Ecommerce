@@ -11,10 +11,12 @@ import junit.framework.Assert;
 
 public class CadastroPage {
 	private static final String URL = "http://automationpractice.com/index.php?controller=authentication&back=my-account.com";
+	private static final WebElement New = null;
 	private WebDriver driver;
 	private WebElement element;
 	private WebElement element1;
 	private WebElement element2;
+	private WebElement element3;
 	Faker faker = new Faker();
 	
 	
@@ -38,7 +40,8 @@ public class CadastroPage {
 	}
 	
 	public void Genero() {
-		driver.findElement(By.id("id_gender1")).click();
+		//driver.findElement(By.id("id_gender1")).click();
+		driver.findElement(By.name("id_gender")).click();
 	}
 
 	public void primeiroNome() {
@@ -118,6 +121,25 @@ public class CadastroPage {
 	
 	Assert.assertEquals(frase,driver.findElement(By.xpath("//*[@id=\"center_column\"]/h1")).getText());
 	System.out.println();
+	}
+	
+	public void validacaoContaExistente() {
+		//Assert.assertEquals(false, false);
+	}
+	
+	public void escreverEmailInvalido() {
+		driver.findElement(By.id("email_create")).sendKeys("sadasdas");
+	}
+	
+	public void emalInvalido() {
+		element =driver.findElement(By.xpath("//*[@id=\"create_account_error\"]/ol/li"));
+		Assert.assertEquals("Invalid email address.", element.getText());
+	}
+	
+	
+
+	public void cepInvalido() {
+		driver.findElement(By.id("postcode")).sendKeys("0050000");
 	}
 	
 	

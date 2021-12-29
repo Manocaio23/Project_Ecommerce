@@ -37,7 +37,7 @@ Funcionalidade: Criar Conta
 		@CY005 @criar_conta_com_o_campo_telefone_vazio
 		Cenario: Tentar cadastrar a conta com campo telefone vazio
 		E preencho os camopos e o telefone vazio 
-		E clico em registrar
+		E tento em registrar 
 		Entao deve aparecer a mensagem para inserir o telefone
 		
 		
