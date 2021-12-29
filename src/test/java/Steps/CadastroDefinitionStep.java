@@ -61,19 +61,22 @@ public class CadastroDefinitionStep {
 	@E("preencho caixaBox, endereco cidade, caixa postal, telefone, pais, telefone celular")
 	public void preencho_caixa_box_endereco_cidade_caixa_postal_telefone_pais_telefone_celular() {
 	   mc.Cep();
+	   mc.endereco();
 	   mc.Cidade();
 	   mc.state();
 	   mc.telefone();
 	}
 
 	@Quando("clico em registro")
-	public void clico_em_registro() {
-	   
+	public void clico_em_registro() throws InterruptedException {
+	   mc.botaoRegistro();
+	   Thread.sleep(2000);
 	}
 
 	@Entao("devo visualizar a mensagem de bem vindo")
-	public void devo_visualizar_a_mensagem_de_bem_vindo() {
-	    
+	public void devo_visualizar_a_mensagem_de_bem_vindo() throws InterruptedException {
+		Thread.sleep(1000);
+		mc.validacaoConta();
 	}
 
 	@Entao("devo verificar a mensagem que a conta ja existe")

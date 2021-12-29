@@ -7,6 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.github.javafaker.Faker;
 
+import junit.framework.Assert;
+
 public class CadastroPage {
 	private static final String URL = "http://automationpractice.com/index.php?controller=authentication&back=my-account.com";
 	private WebDriver driver;
@@ -28,7 +30,6 @@ public class CadastroPage {
 	public void escreverEmail() {
 		String email = Faker.instance().internet().emailAddress();
 		driver.findElement(By.id("email_create")).sendKeys(email);
-		
 		
 	}
 	
@@ -78,7 +79,12 @@ public class CadastroPage {
 		driver.findElement(By.id("optin")).click();
 	}
 	public void Cep() {
-		driver.findElement(By.id("address1")).sendKeys("00500");
+		driver.findElement(By.id("postcode")).sendKeys("00500");
+	}
+	
+	public void endereco() {
+		String cidade = Faker.instance().address().fullAddress();
+		driver.findElement(By.id("address1")).sendKeys(cidade);
 	}
 	
 	public void Cidade() {
@@ -102,6 +108,18 @@ public class CadastroPage {
 	public void emailExistente() {
 		driver.findElement(By.id("email_create")).sendKeys("caionike03@hotmail.com");
 	}
+	
+	public void botaoRegistro() {
+		driver.findElement(By.xpath("//*[@id=\"submitAccount\"]/span")).click();
+	}
+	
+	public void validacaoConta() {
+	String frase="MY ACCOUNT";	
+	
+	Assert.assertEquals(frase,driver.findElement(By.xpath("//*[@id=\"center_column\"]/h1")).getText());
+	System.out.println();
+	}
+	
 	
 	
 }
