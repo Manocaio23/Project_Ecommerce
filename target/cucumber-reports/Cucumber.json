@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7543696900,
+              "duration": 3023097900,
               "status": "passed"
             },
             "line": 12,
@@ -23,7 +23,6 @@
           },
           {
             "result": {
-              "duration": 475300,
               "status": "passed"
             },
             "line": 13,
@@ -47,11 +46,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T20:13:59.167Z",
+        "start_timestamp": "2022-01-03T01:08:17.377Z",
         "before": [
           {
             "result": {
-              "duration": 3888478900,
+              "duration": 2299222200,
               "status": "passed"
             },
             "match": {
@@ -66,7 +65,7 @@
         "after": [
           {
             "result": {
-              "duration": 3717129800,
+              "duration": 3714428000,
               "status": "passed"
             },
             "match": {
@@ -79,7 +78,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9343906000,
+              "duration": 9032377400,
               "status": "passed"
             },
             "line": 18,
@@ -91,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 2570774300,
+              "duration": 2532766200,
               "status": "passed"
             },
             "line": 19,
@@ -103,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 4593336400,
+              "duration": 4369064700,
               "status": "passed"
             },
             "line": 20,
@@ -115,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 1064804600,
+              "duration": 1072111200,
               "status": "passed"
             },
             "line": 21,
@@ -129,6 +128,9 @@
         "tags": [
           {
             "name": "@criar_conta"
+          },
+          {
+            "name": "@regresivo"
           },
           {
             "name": "@CY001"
@@ -147,7 +149,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5641440800,
+              "duration": 5188922600,
               "status": "passed"
             },
             "line": 12,
@@ -159,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 998800,
+              "duration": 1024100,
               "status": "passed"
             },
             "line": 13,
@@ -183,11 +185,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T20:14:32.004Z",
+        "start_timestamp": "2022-01-03T01:08:43.504Z",
         "before": [
           {
             "result": {
-              "duration": 2116512600,
+              "duration": 1687519400,
               "status": "passed"
             },
             "match": {
@@ -202,7 +204,7 @@
         "after": [
           {
             "result": {
-              "duration": 3729340800,
+              "duration": 3744669400,
               "status": "passed"
             },
             "match": {
@@ -215,7 +217,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1192787400,
+              "duration": 1160225600,
               "status": "passed"
             },
             "line": 25,
@@ -229,6 +231,9 @@
         "tags": [
           {
             "name": "@criar_conta"
+          },
+          {
+            "name": "@regresivo"
           },
           {
             "name": "@CY002"
@@ -247,7 +252,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4032746900,
+              "duration": 3255215800,
               "status": "passed"
             },
             "line": 12,
@@ -282,11 +287,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T20:14:44.690Z",
+        "start_timestamp": "2022-01-03T01:08:55.294Z",
         "before": [
           {
             "result": {
-              "duration": 2452743300,
+              "duration": 2001465500,
               "status": "passed"
             },
             "match": {
@@ -301,7 +306,7 @@
         "after": [
           {
             "result": {
-              "duration": 3793778700,
+              "duration": 3775045500,
               "status": "passed"
             },
             "match": {
@@ -314,7 +319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3178001200,
+              "duration": 3159837300,
               "status": "passed"
             },
             "line": 29,
@@ -328,6 +333,9 @@
         "tags": [
           {
             "name": "@criar_conta"
+          },
+          {
+            "name": "@regresivo"
           },
           {
             "name": "@CY003"
@@ -346,7 +354,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5919536700,
+              "duration": 3028311500,
               "status": "passed"
             },
             "line": 12,
@@ -381,11 +389,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T20:14:58.158Z",
+        "start_timestamp": "2022-01-03T01:09:07.495Z",
         "before": [
           {
             "result": {
-              "duration": 2746910600,
+              "duration": 2259215300,
               "status": "passed"
             },
             "match": {
@@ -400,7 +408,7 @@
         "after": [
           {
             "result": {
-              "duration": 3709694600,
+              "duration": 3741651100,
               "status": "passed"
             },
             "match": {
@@ -413,7 +421,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12577803000,
+              "duration": 11521309500,
               "status": "passed"
             },
             "line": 33,
@@ -436,6 +444,7 @@
           },
           {
             "result": {
+              "duration": 999000,
               "status": "passed"
             },
             "line": 35,
@@ -449,6 +458,9 @@
         "tags": [
           {
             "name": "@criar_conta"
+          },
+          {
+            "name": "@regresivo"
           },
           {
             "name": "@CY004"
@@ -467,7 +479,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9152941900,
+              "duration": 3311522200,
               "status": "passed"
             },
             "line": 12,
@@ -502,11 +514,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-29T20:15:23.124Z",
+        "start_timestamp": "2022-01-03T01:09:28.066Z",
         "before": [
           {
             "result": {
-              "duration": 2220899200,
+              "duration": 2200090000,
               "status": "passed"
             },
             "match": {
@@ -521,7 +533,7 @@
         "after": [
           {
             "result": {
-              "duration": 3721166900,
+              "duration": 3695869700,
               "status": "passed"
             },
             "match": {
@@ -534,7 +546,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10914786200,
+              "duration": 10627889900,
               "status": "passed"
             },
             "line": 39,
@@ -557,7 +569,7 @@
           },
           {
             "result": {
-              "duration": 1877096700,
+              "duration": 1692371000,
               "status": "passed"
             },
             "line": 41,
@@ -571,6 +583,9 @@
         "tags": [
           {
             "name": "@criar_conta"
+          },
+          {
+            "name": "@regresivo"
           },
           {
             "name": "@CY005"
@@ -593,6 +608,279 @@
         "location": {
           "line": 5,
           "column": 1
+        }
+      },
+      {
+        "name": "@regresivo",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 14
+        }
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4634193000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "que estou no site",
+            "match": {
+              "location": "Steps.FazerCompraStep.que_estou_no_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2894801900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "faco login",
+            "match": {
+              "location": "Steps.FazerCompraStep.faco_login()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "visualizo os dados da conta",
+            "match": {
+              "location": "Steps.FazerCompraStep.visualizo_os_dados_da_conta()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T01:09:49.608Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2423134100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.FazerCompraStep.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "comprar camisa com sucesso",
+        "description": "",
+        "id": "fazer-compra;comprar-camisa-com-sucesso;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3706069900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.FazerCompraStep.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2554310800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clico em \"T-Shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T-Shirts\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Steps.FazerCompraStep.clico_em(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3333423900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "visualizo a camisa \"Faded Short Sleeve T-shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Faded Short Sleeve T-shirts\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Steps.FazerCompraStep.visualizo_a_camisa(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clico em adicionar ao carrinho",
+            "match": {
+              "location": "Steps.FazerCompraStep.clico_em_adicionar_ao_carrinho()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3199574300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "prossigo com o checkout",
+            "match": {
+              "location": "Steps.FazerCompraStep.prossigo_com_o_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3015126200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "clico no botao checkout para avancar",
+            "match": {
+              "location": "Steps.FazerCompraStep.clico_no_botao_checkout_para_avancar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "ao visualizar o endereco clico no botao checkout",
+            "match": {
+              "location": "Steps.FazerCompraStep.ao_visualizar_o_endereco_clico_no_botao_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 7843969700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "aceito os termos",
+            "match": {
+              "location": "Steps.FazerCompraStep.aceito_os_termos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico no botao de avanca checkout",
+            "match": {
+              "location": "Steps.FazerCompraStep.clico_no_botao_de_avanca_checkout()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4649669400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "clico em tranferencia bancaria",
+            "match": {
+              "location": "Steps.FazerCompraStep.clico_em_tranferencia_bancaria()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clico no botao para confimar meu pedido",
+            "match": {
+              "location": "Steps.FazerCompraStep.clico_no_botao_para_confimar_meu_pedido()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1047744400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "devo visualizar a mensagem \"Your order on My Store is complete.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your order on My Store is complete.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "Steps.FazerCompraStep.devo_visualizar_a_mensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@compra"
+          },
+          {
+            "name": "@regresivo"
+          },
+          {
+            "name": "@CY001"
+          },
+          {
+            "name": "@comprar_com_sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "fazer compra",
+    "description": "  Dado que quero fazer uma compra no site\n  para assim ter o produto que desejo\n  E assim recomendar se vale apena",
+    "id": "fazer-compra",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Compra.feature",
+    "tags": [
+      {
+        "name": "@compra",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regresivo",
+        "type": "Tag",
+        "location": {
+          "line": 5,
+          "column": 9
         }
       }
     ]

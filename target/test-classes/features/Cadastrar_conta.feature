@@ -2,7 +2,7 @@
 #Autor: Mano Caio
 #Data: Dezembro/2021
 
-@criar_conta
+@criar_conta @regresivo
 Funcionalidade: Criar Conta
   Como um usuario
   Eu quero criar uma conta

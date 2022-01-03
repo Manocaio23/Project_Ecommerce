@@ -15,7 +15,7 @@ public class CadastroDefinitionStep {
 	private  WebDriver driver;
 	private CadastroPage mc;
 	
-	@Before
+	@Before ("@criar_conta")
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
 		this.driver = new ChromeDriver();
@@ -23,7 +23,7 @@ public class CadastroDefinitionStep {
 		mc =new CadastroPage(driver);
 	}
 	
-	@After
+	@After ("@criar_conta")
 	public void After() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.manage().deleteAllCookies();
