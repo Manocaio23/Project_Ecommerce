@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/",
         glue = {"Steps"},
         tags = "@regresivo",
         plugin = {"pretty","html:target/cucumber-html-report", "json:target/cucumber-reports/Cucumber.json"},

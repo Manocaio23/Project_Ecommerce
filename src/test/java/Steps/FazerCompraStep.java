@@ -49,17 +49,22 @@ public class FazerCompraStep {
 	public void visualizo_os_dados_da_conta() {
 	    
 	}
+	
+
+
 
 	@E("clico em {string}")
 	public void clico_em(String string) throws InterruptedException {
 		Thread.sleep(1000);
 		mc.MenuCamisa();
+		Thread.sleep(1000);
 	}
 
 
 	@E("visualizo a camisa {string}")
 	public void visualizo_a_camisa(String string) throws InterruptedException {
-	   mc.AdicionarCarrinho(string);
+		Thread.sleep(1000);
+		mc.AdicionarCarrinho(string);
 	   Thread.sleep(1000);
 	}
 
@@ -110,5 +115,49 @@ public class FazerCompraStep {
 	@Entao("devo visualizar a mensagem {string}")
 	public void devo_visualizar_a_mensagem(String string) throws InterruptedException {
 	 mc.validacaoOrderConfirmation(string);  
+	}
+	
+	//cenario 2 
+	
+	@Quando("passo mouse em cima do menu vestido")
+	public void passoMouseEmCimaDoMenuVestido() throws InterruptedException {
+	    mc.ClicarVestido();
+	}
+
+
+	@Quando("clico em vestido de verao")
+	public void clicoEmVestidoDeVerao() {
+	    
+	}
+	@Quando("visualizo {string}")
+	public void visualizo(String string) throws InterruptedException {
+	   mc.validaVestidoPrindedDress(string);
+	}
+	@Quando("dou um clique em cima")
+	public void douUmCliqueEmCima() throws InterruptedException {
+		mc.clicarNoVestido();
+	}
+	@Quando("visualizo as informcoes")
+	public void visualizoAsInformcoes() {
+	    
+	}
+	@Quando("coloco a quantidade mais {int}")
+	public void colocoAQuantidadeMais(Integer int1) throws InterruptedException {
+		//Thread.sleep(2000);
+		mc.EspecificacoesVestido();
+	}
+	@Quando("o tamanho L com a cor branca")
+	public void oTamanhoLComACorBranca() {
+	    
+	}
+	@Entao("faco todo procedimento de finalizar compra {string}")
+	public void facoTodoProcedimentoDeFinalizarCompra(String string) throws InterruptedException {
+		Thread.sleep(2000);
+		mc.CompraVestidoPrindedDress();
+		mc.ProcederCheckoutSumary();
+		mc.ProcederCheckoutAndrees();
+		mc.AcitarTermos();
+		mc.trasferBancaria();
+		mc.validacaoOrderConfirmation(string);
 	}
 }

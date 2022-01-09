@@ -39,8 +39,9 @@ public class CadastroPage {
 		driver.findElement(By.xpath("//*[@id=\"SubmitCreate\"]/span")).click();
 	}
 	
-	public void Genero() {
+	public void Genero() throws InterruptedException {
 		//driver.findElement(By.id("id_gender1")).click();
+		Thread.sleep(1000);
 		driver.findElement(By.name("id_gender")).click();
 	}
 
